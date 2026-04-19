@@ -20,3 +20,6 @@ cat > README.md <<'EOF'
 1.  安装依赖：
     ```bash
     sudo apt update && sudo apt install -y gcc make binutils
+给脚本添加执行权限
+cumod +x build.sh
+    ./ build.sh 一键编译
